@@ -7,18 +7,6 @@ for (let i = 1 ; i<=100; i++){
 
 console.log(doSomething(array))
 
-function Determinar (number) {
-    while((number%3 == 0) && (number%5 == 0))
-    return "MUSICAL";
-    while((number%5 == 0))
-    return "TI";
-    while((number%3 == 0))
-    return "MUSIC";
-    if(number!=""){
-        return number
-    }
-}
-
 function doSomething(obj) {
   for(let i = 1;i<=100;i++){
     if ((i%3 == 0) && (i%5==0)){
